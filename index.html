@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+    <title>Image Lightbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <div class="image"><span><img src="image/img1.jpg" alt="image"></span></div>
+            <div class="image"><span><img src="image/img2.jpg" alt="image"></span></div>
+            <div class="image"><span><img src="image/img3.jpg" alt="image"></span></div>
+            <div class="image"><span><img src="image/img4.jpg" alt="image"></span></div>
+            <div class="image"><span><img src="image/img5.jpg" alt="image"></span></div>
+            <div class="image"><span><img src="image/img6.jpg" alt="image"></span></div>
+        </div>
+    </div>
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">
+                Image <p class="current-img"></p> of <p class="total-img"></p>
+            </span>
+            <span class="icon"><i class="fas fa-xmark"></i></span>
+        </div>
+        <div class="img-box">
+            <div class="slide prev">
+                <i class="fas fa-angle-left"></i>
+            </div>    
+            <div class="slide next">
+                <i class="fas fa-angle-right"></i>
+            </div>    
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="shadow"></div>
+</body>
+</html>
